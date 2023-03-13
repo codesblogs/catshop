@@ -1,0 +1,22 @@
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -52px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-details{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card-details{
+      grid-template-columns: 1fr;
+    } 
+
+  }
+  

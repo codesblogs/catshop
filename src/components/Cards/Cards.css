@@ -1,0 +1,26 @@
+
+
+.card-container{
+    border: 1px solid black;
+    width: 215px;
+    margin: 20px;
+    align-items: center;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.imageUrl img{
+    width: 214px;
+}
+
+.attached{
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-container :hover{
+    background-color: #ffcfd1;
+    cursor: pointer;
+}
+
